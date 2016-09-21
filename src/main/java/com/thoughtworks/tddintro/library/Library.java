@@ -18,12 +18,8 @@ public class Library {
     }
 
     public void listBooks() {
-        if (books.size() > 0) {
-            for (String book : books) {
-                printStream.println(book);
-            }
-        }else{
-            printStream.println("");
+        for (String book : books) {
+            printStream.println(book);
         }
     }
 
